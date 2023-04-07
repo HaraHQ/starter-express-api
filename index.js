@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/download', function(req, res){
-  const file = `${__dirname}/upload/dramaticpenguin.MOV`;
+  const file = `${__dirname}/VID_20230408_062423.mp4`;
   res.download(file); // Set disposition and send it.
 });
 
